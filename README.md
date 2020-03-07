@@ -57,6 +57,8 @@ Css you write is written in less which simplifies css and it is then compiled in
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+I love all the concepts. I really haven't chosen a favorite yet. I love how
+each have a place to make css easier. The only thing giving me the most trouble is transitioning to using these concepts.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.

@@ -1,7 +1,13 @@
 // Home Content
 
-.home {
+#home {
 
+
+  h1{
+     .flex-layout(center, center);
+     font-size: 4rem;
+     padding: 20px;
+   }
   .intro {
 
     h2 {
@@ -18,6 +24,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone{
+      display:none;
+    }
 
     img {
       width: 28%;
@@ -45,6 +54,7 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    
 
     .walk-text {
       width: 50%;
@@ -57,7 +67,9 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .button {
+       .button-style();
+
       }
     }
 
@@ -71,5 +83,12 @@
         border-radius: 10px;
       }
     }
+  }
+  @media @phone{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }// home
