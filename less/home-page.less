@@ -2,11 +2,11 @@
 
 #home {
   
- border: 2px solid red;
+ 
      
   .nav-container{
     
-     border: 2px solid red;
+     
   h1{
      .flex-layout(center, center);
      font-size: 4rem;
@@ -17,15 +17,17 @@
    }
    .earth-img{
      @media @phone{
-       width: 80%;
+       width: 25%;
+       justify-content: center;
+       align-items: center;
      }
      .flex-layout(center, center);
      border-radius: 20px;
-     .phone();
+     
      
    }
   .intro {
-    border: 2px solid red;
+   
     h2 {
       padding: 15px;
   
@@ -77,14 +79,18 @@
     justify-content: center;
     align-items: center;
     .phone();
- 
+ @media @phone{
+  width: 100%;
+  padding: 30px;
+
+
 
     .walk-text {
       //width: 50%;
-      @media @mobile{
-        width: 90%;
+      @media @phone{
+        width: 100%;
        padding: 30px;
-     border: 2px solid red;
+     
       h3 {
         margin-bottom: 10px;
       }
@@ -101,7 +107,7 @@
     }
     }
   }   
-    
+} 
   
     .walk-img {
       width: 46%;
