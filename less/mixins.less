@@ -1,1 +1,24 @@
 // Mixins Here
+.flex-layout(@j, @a) {
+display: flex;
+flex-direction: row;
+padding: 10px;
+justify-content: @j;
+align-items: @a;
+}
+.button-style(){
+    background-color: @ebony-clay;
+     color: white;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+.phone(){
+    @media @phone{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+}
